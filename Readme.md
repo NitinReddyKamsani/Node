@@ -14,3 +14,7 @@ Day-2 :
 -> ECMA Script is a standard for the scripting languages lie javascript,jscript and Actionscript
 -> Node.js contins the browser engine and some super-power to make the program run
 -> V8 converts the high language code to machine language code(Binary)
+
+Day-3 :
+-> If you want to use one module inside another module we use require() with the path name.
+-> 
