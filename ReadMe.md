@@ -17,3 +17,11 @@ Day-2 :
 
 Day-3 : 
 -> If you want to use one module inside another module we use require() with the path name.
+-> when you use require("path") thw whole module is packed into a function and is executed.
+-> Those type of functions are called IIFE(immediately invoked function expression).
+-> steps to write IIFE 
+
+            (function (){
+                console.log("IIFE example")
+            })()
+-> In the above example we created an anonymous function and enclosed it inside a expression (), and called immediately this is how IIFE works.
