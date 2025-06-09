@@ -25,3 +25,6 @@ Day-3 :
                 console.log("IIFE example")
             })()
 -> In the above example we created an anonymous function and enclosed it inside a expression (), and called immediately this is how IIFE works.
+
+Q) How do u get access to module.export
+A) the (module) is passed as a parameter to IIFE
