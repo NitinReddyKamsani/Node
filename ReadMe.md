@@ -34,3 +34,5 @@ Day-4 :
 -> JavaScript is Synchronous in nature but node.js is Asynchronous in nature.
 -> In Synchronous nature the process wait until the previous process has completed its execution.
 -> In Asynchronous nature the process doest wait for another process and the process which takes the least time gets executed first.
+-> Node.js cant access the files,websites,timer and databases etc all these things are taken care by the OS. 
+-> In order to use these OS resources Node.js need a super power and that super power is Libuv.
