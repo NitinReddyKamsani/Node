@@ -28,3 +28,9 @@ Day-3 :
 
 Q) How do u get access to module.export
 A) the (module) is passed as a parameter to IIFE 
+
+Day-4 : 
+-> Synchronous and Asynchronous nature
+-> JavaScript is Synchronous in nature but node.js is Asynchronous in nature.
+-> In Synchronous nature the process wait until the previous process has completed its execution.
+-> In Asynchronous nature the process doest wait for another process and the process which takes the least time gets executed first.
