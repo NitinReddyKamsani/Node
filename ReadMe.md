@@ -40,4 +40,5 @@ Day-4 :
 Day-5 :
 -> fs.readFile("path","utf-8",(err,data)=>{console.log(data)}) //this is Asynchronous
 -> fs.readFileSync("path","utf-8") //this is Synchronous
+-> if you use a method with Sync() then it will block the main thread and the V8 engine wait till line gets executed before going to the next line.
 
