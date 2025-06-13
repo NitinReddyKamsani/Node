@@ -36,3 +36,8 @@ Day-4 :
 -> In Asynchronous nature the process doest wait for another process and the process which takes the least time gets executed first.
 -> Node.js cant access the files,websites,timer and databases etc all these things are taken care by the OS. 
 -> In order to use these OS resources Node.js need a super power and that super power is Libuv.
+
+Day-5 :
+-> fs.readFile("path","utf-8",(err,data)=>{console.log(data)}) //this is Asynchronous
+-> fs.readFileSync("path","utf-8") //this is Synchronous
+
