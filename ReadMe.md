@@ -47,5 +47,10 @@ Day-6 :
 -> In parsing the lexical analysis and tokenization takes place .
 -> Tokenization is the process of breaking the code into small pieces called tokens.
 -> After lexical analysis and tokenization an abstract syntax tree is created.
--> 
 
+Day-7 :
+-> The abstarct syntax tree is then given to the ignition interpreter and then it is coverted to byte code.
+-> The lines or the commands that are most repeated are given to the turbo fan compiler and this process is called as optimization.
+-> The turbofan compiler gives the code to the optimized machine code and the code is executed.
+-> The turbofan make some assumptions like data types etc, if the assumptions made by the turbofan are wrong then the code is again given to the ignition interpreter and this is called as de-optimization.
+-> The ignition interpreter again generates the byte code and the execution is done.
