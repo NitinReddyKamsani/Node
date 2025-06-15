@@ -42,3 +42,10 @@ Day-5 :
 -> fs.readFileSync("path","utf-8") //this is Synchronous
 -> if you use a method with Sync() then it will block the main thread and the V8 engine wait till line gets executed before going to the next line.
 
+Day-6 : 
+-> Whenever you type the code,  the code is given for parsing.
+-> In parsing the lexical analysis and tokenization takes place .
+-> Tokenization is the process of breaking the code into small pieces called tokens.
+-> After lexical analysis and tokenization an abstract syntax tree is created.
+-> 
+
