@@ -59,3 +59,8 @@ Day-8 :
 -> All the Asynchronous operations are places inside the call back queue.
 -> The Event loop continuously check the call stack and the callback queue.
 -> If the Event loop finds that the call stack is empty, it takes the operation from the callback queue and place it in call stack.
+-> The Event loop has 4 major phases . Timer , poll , check , close.
+-> The timer contains all the setTimOut,setIntervals etc.
+-> The poll contains all the fs.readFile() , https.get() methods etc.
+-> The check phase contains setImmediate() method.
+-> The close phase contains socket.on() methods etc.
