@@ -64,3 +64,4 @@ Day-8 :
 -> The poll contains all the fs.readFile() , https.get() methods etc.
 -> The check phase contains setImmediate() method.
 -> The close phase contains socket.on() methods etc.
+-> If the Event loop has no work and the call stack is empty it just waits at the poll phase.
