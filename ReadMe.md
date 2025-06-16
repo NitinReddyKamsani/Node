@@ -54,3 +54,8 @@ Day-7 :
 -> The turbofan compiler gives the code to the optimized machine code and the code is executed.
 -> The turbofan make some assumptions like data types etc, if the assumptions made by the turbofan are wrong then the code is again given to the ignition interpreter and this is called as de-optimization.
 -> The ignition interpreter again generates the byte code and the execution is done.
+
+Day-8 :
+-> All the Asynchronous operations are places inside the call back queue.
+-> The Event loop continuously check the call stack and the callback queue.
+-> If the Event loop finds that the call stack is empty, it takes the operation from the callback queue and place it in call stack.
