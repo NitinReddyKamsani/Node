@@ -65,3 +65,9 @@ Day-8 :
 -> The check phase contains setImmediate() method.
 -> The close phase contains socket.on() methods etc.
 -> If the Event loop has no work and the call stack is empty it just waits at the poll phase.
+
+Day-9 :
+-> The size of UV_Threadpool is 4.
+-> Node.js acts as a single threaded when u give the Synchronous code.
+-> Node.js acts as a multi threaded when u give the Asynchronous code.
+
