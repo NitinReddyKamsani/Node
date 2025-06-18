@@ -70,4 +70,8 @@ Day-9 :
 -> The size of UV_Threadpool is 4.
 -> Node.js acts as a single threaded when u give the Synchronous code.
 -> Node.js acts as a multi threaded when u give the Asynchronous code.
+-> You can modify the size of the ThreadPool.
+-> The ThreadPool communicate with the OS with the help of epoll , file descriptors , socket descriptors etc.
+-> Epoll takes O(1) time and uses the red-black tree.
+
 
