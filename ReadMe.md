@@ -74,4 +74,8 @@ Day-9 :
 -> The ThreadPool communicate with the OS with the help of epoll , file descriptors , socket descriptors etc.
 -> Epoll takes O(1) time and uses the red-black tree.
 
-
+Day-10 : 
+-> When clinet request the sever , server responds with a set of rules.
+-> The rules may be HTTP : Hyper text transfer protocol
+-> FTP : File transfer protocol.
+-> SMTP : Simple mail transfer protocol.
