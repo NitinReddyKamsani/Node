@@ -79,3 +79,5 @@ Day-10 :
 -> The rules may be HTTP : Hyper text transfer protocol
 -> FTP : File transfer protocol.
 -> SMTP : Simple mail transfer protocol.
+-> The server sends the response in chunks called as packets.
+-> The DNS(Domain name service) maps the domain name with the IP.
