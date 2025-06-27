@@ -93,3 +93,9 @@ const server = http.createServer((req,res)=>{
 })
 
 server.listen(3000);
+
+DataBases : 2 types 1)sql 2)nosql
+-> sql : mysql,postgres
+-> nosql : mongodb,redis 
+
+-> mongodb is a nosql document database.
