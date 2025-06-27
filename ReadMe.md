@@ -81,3 +81,15 @@ Day-10 :
 -> SMTP : Simple mail transfer protocol.
 -> The server sends the response in chunks called as packets.
 -> The DNS(Domain name service) maps the domain name with the IP.
+
+Day-11 :
+
+creatting server : 
+
+const http = require("http");
+
+const server = http.createServer((req,res)=>{
+    res.end("Hello world");
+})
+
+server.listen(3000);
