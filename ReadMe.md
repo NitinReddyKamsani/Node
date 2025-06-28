@@ -99,3 +99,6 @@ DataBases : 2 types 1)sql 2)nosql
 -> nosql : mongodb,redis 
 
 -> mongodb is a nosql document database.
+
+Day-12 : 
+-> command to install mongodb : npm i mongodb
