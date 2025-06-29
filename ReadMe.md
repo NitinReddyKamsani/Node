@@ -102,3 +102,4 @@ DataBases : 2 types 1)sql 2)nosql
 
 Day-12 : 
 -> command to install mongodb : npm i mongodb
+-> CRUD : create,read,update,delete
