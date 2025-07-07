@@ -104,3 +104,8 @@ Day-12 :
 -> command to install mongodb : npm i mongodb
 -> CRUD : create,read,update,delete
 -> Connecting to mongodb : client.connect();
+
+Day-13 :
+-> Middlewares : Middlewares in Node.js refers to the functions that process tghe requests before reaching to the route handler.
+-> The middlewares have the access to the requests and response and can modify the objects , end the response cycle and also call the next middlware function.
+
