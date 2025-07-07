@@ -17,6 +17,19 @@ async function main(){
 
     const collection = db.collection("UsersData");
 
+
+    const data = {
+        "User3" : {
+            "Name" : "Meghana",
+            "Age" : 27
+        }
+    }
+
+
+    const insertResult = await collection.insertOne(data);
+
+    console.log("A document is inserted");
+    
     const find = await collection.find({}).toArray();
 
     console.log(find);
